@@ -1,0 +1,179 @@
+.con{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-floral-background_23-2149026397.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.side{
+    width:240px;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(77, 85, 82);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+    
+}
+
+.side1{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1em;
+    margin-left: 0.8em;
+    border-radius: 10px;
+}
+
+.mar{
+    margin-top: 12em;
+}
+
+.slider{
+    width: 600px;
+    height: 450px;
+    position: relative;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.left{
+    position: absolute;
+    top: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height:35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+   
+    
+}
+
+.lit{
+ left: 10px;
+}
+
+.rig{
+    position: absolute;
+    right: 10px;
+}
+
+
+.footer{
+    padding: 0.6em;
+    text-align: center;
+    background-color: rgba(32, 32, 32, 0);
+    color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 2em;
+}
+
+
+@media (max-width:915px){
+    .side{
+        height: 210px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 0.6em;
+        overflow-x: auto;
+    }
+
+    .slider{
+        margin-bottom: 2em;
+        height: 340px;
+        width: 85%;
+    }
+
+    .side1{
+        width: 200px;
+        height: 90%;
+        margin-top: 0.7em;
+        margin-right: 0.6em;
+        /* overflow-y:; */
+    }
+    .side{
+        height: 170px;
+       
+    }
+
+
+    .mar{
+        margin-top: 0.6em;
+        margin-left: 25em;
+    }
+}
+
+
+.border {
+    border: 2px solid white;
+}
+
+@media (max-width:585px){
+    
+    .mar{
+        margin-left: 40em;
+    }
+  
+}
+
+
+@media (max-width:485px){
+    .side{
+        height: 150px;
+       
+    }
+   
+
+    .slider{
+        height: 270px;
+        width: 400px;
+       
+    }
+}
+
+
+@media (max-width:320px){
+    .side{
+        height: 130px;
+       
+    }
+
+    .side1{
+        width: 120px;
+        height: 90%;
+        margin-top: 0.4em;
+        margin-right: 0.6em;
+        /* overflow-y:; */
+    }
+
+    .mar{
+        margin-left: 32em;
+    }
+
+    .slider{
+        height: 230px;
+        width: 350px;
+    }
+}
+
+
